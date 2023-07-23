@@ -1,0 +1,7 @@
+[
+    { "nome": "Maçã", "quantidade": 10 },
+    { "nome": "Banana", "quantidade": 20 },
+    { "nome": "Laranja", "quantidade": 30 },
+    { "nome": "Morango", "quantidade": 40 },
+    { "nome": "Abacaxi", "quantidade": 50 }
+  ]

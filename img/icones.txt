@@ -1,0 +1,29 @@
+<script src="https://kit.fontawesome.com/4bd1aa3964.js" crossorigin="anonymous"></script>
+
+
+seta esquerda
+<i class="fa-solid fa-left-long"></i>
+
+direita
+<i class="fa-solid fa-right-long"></i>
+
+caminhão
+<i class="fa-solid fa-truck-arrow-right"></i>
+
+caminhao 2
+<i class="fa-solid fa-truck"></i>
+
+caminhão rapido
+<i class="fa-solid fa-truck-fast"></i>
+
+configuração
+<i class="fa-solid fa-screwdriver-wrench"></i>
+
+usuario 1
+<i class="fa-regular fa-user"></i>
+
+usuario 2
+<i class="fa-solid fa-user"></i>
+
+senha
+<i class="fa-solid fa-key"></i>

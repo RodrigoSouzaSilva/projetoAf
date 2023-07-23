@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style2.css">
+    <script src="https://kit.fontawesome.com/4bd1aa3964.js" crossorigin="anonymous"></script>
+    
+    <title>Lista</title>
+</head>
+<body>
+    <div class="principal">
+        <div class="card">
+            <div class="layout">
+                <div class="layout-nome">Pera</div>
+                <div class="layout-img">
+                    <img src="./img/pera.jfif" class="fotoFruta">
+                </div>
+            </div>
+            <form class="pedido">
+                <input type="text" id="valor" value="0">
+                <button type="submit">OK</button>
+            </form>
+            <div class="setas">
+                <i class="fa-solid fa-left-long esquerda"></i>
+                <i class="fa-solid fa-right-long direita"></i>
+            </div>
+            <div class="finalizar">
+                <Button id="final">Finalizar</Button>
+            </div>
+            <button onclick="sair()" class="sair">Sair</button>
+        </div>
+    </div>
+
+    <script src="/js/main2.js"></script>
+</body>
+</html>
