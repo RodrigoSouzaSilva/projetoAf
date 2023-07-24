@@ -53,6 +53,7 @@ function iniciando() {
     .then(frutas => {
         quantidadeFruta.value = frutas[contador].quantidade
         nomeFruta.innerHTML = frutas[contador].nome;
+        imagemFruta.src = frutas[contador].foto;
     }).catch(error => {
         console.error('Erro ao ler o arquivo frutas.json', error);
     })

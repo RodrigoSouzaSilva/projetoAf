@@ -5,7 +5,7 @@ form.addEventListener('submit', verificarLogin);
 function verificarLogin(event) {
     event.preventDefault();
 
-    const loginInput = document.getElementById('login').value;
+    const loginInput = document.getElementById('login').value.toLowerCase();
     const senhaInput = document.getElementById('senha').value;
     var validador = 0;
 
