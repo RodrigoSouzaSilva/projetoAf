@@ -11,15 +11,13 @@ const esquerda = document.querySelector('.esquerda');
 const direita = document.querySelector('.direita');
 var max;
 
-fetch('frutas.json')
-    .then(response => response.json())
-    .then(frutas => {
-        max = frutas.length - 1
-    }).catch(error => {
-        console.error('Erro ao ler o arquivo frutas.json', error);
-    })
-
-
+// fetch('frutas.json')
+//     .then(response => response.json())
+//     .then(frutas => {
+//         max = frutas.length - 1
+//     }).catch(error => {
+//         console.error('Erro ao ler o arquivo frutas.json', error);
+//     })
 
 
 esquerda.addEventListener('click', esq)
@@ -45,21 +43,17 @@ function dir() {
     iniciando();
 }
 
-
-
 function iniciando() {
     fetch('frutas.json')
     .then(response => response.json())
     .then(frutas => {
-        quantidadeFruta.value = frutas[contador].quantidade
-        nomeFruta.innerHTML = frutas[contador].nome;
-        imagemFruta.src = frutas[contador].foto;
+        max = frutas.length - 1
+        quantidadeFruta.value = frutas[contador].id
+        nomeFruta.innerHTML = frutas[contador].P_Descricao;
+        // imagemFruta.src = frutas[contador].foto;
     }).catch(error => {
         console.error('Erro ao ler o arquivo frutas.json', error);
     })
 }
-
-
-
 
 document.addEventListener('DOMContentLoaded', iniciando);
